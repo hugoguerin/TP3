@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vw;
+    background-image: url(kodama.jpg);
+    background-size: cover;
+}
+
+table{
+    border-collapse: collapse;
+    background-image: linear-gradient( antiquewhite, rgba(80, 59, 59, 0.3));
+    width: 40vw;
+    height: 21vw;
+}
+td, tr, th{
+    border: solid black 2px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4vw;
+}
+caption{
+    text-shadow:-3px -3px 10px white;
+    font-size: 3.5vw;
+    font-family: 'Lobster', cursive;
+}
